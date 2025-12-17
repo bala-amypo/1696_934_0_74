@@ -12,10 +12,11 @@ public class SwaggerConfig {
 
     @Bean
     public OpenAPI customOpenAPI() {
-        return new OpenAPI();
-                // // Change the URL as per your server
-                // .servers(List.of(
-                //         new Server().url("https://9169.408procr.amypo.ai")
-                // ));
+        return new OpenAPI(){
+                // Change the URL as per your server
+                .servers(List.of(
+                        new Server().url(https://9169.408procr.amypo.ai/)
+                ));
     }
+}
 }
