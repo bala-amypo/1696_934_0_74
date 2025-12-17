@@ -19,8 +19,10 @@ public StudentService implements StudentService(){
         return StudentRepo.findall()
     }
     @Override
-    public 
+    public findall
     @Override
+    public void deleteStudent
 
 
 }
+
