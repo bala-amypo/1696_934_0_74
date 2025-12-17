@@ -11,5 +11,11 @@ public StudentService implements StudentService(){
     @Autowired
     StudentRepo st;
     @Override
-    public Student insertStudent(Student st)
+    public Student insertStudent(Student st){
+        Sta repository
+    }
+    public List<Student>getAllStudent()
+    {
+        return StudentRepo.findall();
+    }
 }
