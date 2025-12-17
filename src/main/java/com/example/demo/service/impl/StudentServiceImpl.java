@@ -16,6 +16,11 @@ public StudentService implements StudentService(){
     }
     public List<Student>getAllStudent()
     {
-        return StudentRepo.findall();
+        return StudentRepo.findall()
     }
+    @Override
+    public 
+    @Override
+
+
 }
